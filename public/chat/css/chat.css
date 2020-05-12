@@ -1,0 +1,69 @@
+.base_receive p {
+    background: #4bdbe6;
+}
+
+.base_sent p {
+    background: #e674a8;
+}
+
+time {
+    font-size: 11px;
+    font-style: italic;
+}
+
+#login-box {
+    margin-top: 20px
+}
+
+#chat_box {
+    position: fixed;
+    top: 10%;
+    right: 5%;
+    width: 27%;
+}
+
+.close-chat {
+    margin-top: -17px;
+    cursor: pointer;
+}
+
+.chat_box {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 600px;
+}
+
+.chat-area {
+    height: 250px;
+    overflow-y: scroll;
+}
+
+
+#chat-overlay {
+    position: fixed;
+    right: 0%;
+    bottom: 0%;
+}
+
+.msg_container {
+    padding: 30px 10px !important;
+}
+
+.glyphicon-ok {
+    color: #42b7dd;
+}
+
+.loader {
+    -webkit-animation: spin 1000ms infinite linear;
+    animation: spin 1000ms infinite linear;
+}
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
